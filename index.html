@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD IN JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--Adding method using a form-->
+    <table>
+        <tr>
+            <form autocomplete="off" onsubmit="event.preventDefault()">
+                <td class="submitTable">
+                    <div>
+                        <label>Full Name</label>
+                        <input type="text" name="fullName" id="fullname">
+                    </div>
+                    <div>
+                        <label>Emp Code</label>
+                        <input type="text" name="empCode" id="empcode">
+                    </div>
+                    <div>
+                        <label>Salary</label>
+                        <input type="text" name="salary" id="salary">
+                    </div>
+                    <div>
+                        <label>City</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div>
+                        <input type="submit" name="submit" id="button">
+                    </div>
+                </td>
+            </form>
+            <td>
+                <table class="list" id="employeelist">
+                    <thead>
+                        <tr class="tablelist">
+                            <th>Full Name</th>
+                            <th>Emp ID</th>
+                            <th>Salary</th>
+                            <th>City</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                  <tbody>
+
+                  </tbody>
+                </table>  
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
